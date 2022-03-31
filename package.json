@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "dotenv -- wsrun -c build",
+    "start": "dotenv -- wsrun -c start"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^5.1.0",
+    "wsrun": "5.2.4"
+  }
+}
